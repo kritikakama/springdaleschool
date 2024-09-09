@@ -1,70 +1,78 @@
 # Getting Started with Create React App
+📌 Project Overview
+The Springdale Public School Website is designed to provide detailed information about the school, including its history, academics, admissions process, faculty, student life, and contact details. The website also features a photo and video gallery and a contact form with Google Maps integration.
 
+It is a showcase of modern frontend development techniques using React.js along with responsive design principles.
+
+💡 Live Demo
+The project is deployed and can be accessed at the following link:
+
+Live Demo on Vercel
+
+🚀 Features
+Responsive Design: Fully responsive and adapts to various screen sizes (desktops, tablets, and mobile).
+Home Page: Includes a carousel/banner showcasing events, quick links, and an introduction.
+About Us: Displays the school's history, mission, vision, and a message from the principal.
+Academics: Information about the school’s curriculum, subjects, and teaching methodologies.
+Admissions: Step-by-step admission process with downloadable forms and important dates.
+Faculty: Faculty profiles with qualifications and experience details.
+Students: Information about student life, extracurriculars, and achievements.
+Gallery: Photo and video gallery showcasing school events and infrastructure.
+Contact Us: Contact form with validation and Google Maps integration.
+Accessibility: Designed with accessibility best practices in mind, including keyboard navigation and ARIA roles.
+State Management: Managed application state using Context API for routing and form submissions.
+🛠 Tech Stack
+React.js: Frontend library for building user interfaces.
+React Router DOM: For client-side routing.
+CSS Framework: Tailwind CSS for responsive design.
+Context API: For state management.
+React Hook Form: For form handling and validation.
+Google Maps API: For location embedding.
+Vercel: For deployment.
+⚙️ Installation & Setup
+Follow these steps to set up the project locally:
+
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/school-website.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd school-website
+Install dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm start
+The website should now be running locally at http://localhost:3000.
+
+🚧 Usage
+Once the project is running, you can explore the different sections of the website:
+
+Home Page: Introduction, carousel, and quick links.
+About Us: School history, vision, mission, and principal's message.
+Academics: Detailed curriculum and teaching methodologies.
+Admissions: Admission process and important dates.
+Faculty: Teacher profiles.
+Students: Student life, clubs, and achievements.
+Gallery: Photos and videos of school events.
+Contact Us: Contact form with validation and Google Maps integration.
+🌍 Deployment
+The website has been deployed using Vercel. You can visit the live version here:
+
+Live Demo on Vercel
+
+To deploy on Vercel, follow these steps:
+
+Create an account on Vercel.
+Connect your GitHub repository.
+Click "Deploy" and let Vercel handle the rest.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
