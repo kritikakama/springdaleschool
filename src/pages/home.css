@@ -1,0 +1,29 @@
+.homepage {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.left-content {
+  flex: 3;
+  padding-right: 20px;
+}
+
+.right-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Aligns the scroll tab to the right */
+}
+
+.news-events {
+  width: 100%; /* You can adjust the width of the News & Events tab */
+  max-width: 300px; /* Make it a fixed size if necessary */
+}
